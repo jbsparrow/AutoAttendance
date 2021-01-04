@@ -6,7 +6,7 @@ option.add_argument("user-data-dir=selenium")
 # this is to prevent from having to log in each time.
 
 browser = webdriver.Chrome(executable_path='~/home/chromedriver', options=option)
-
+# make sure you have the right executable path
 browser.get("google form link")
 
 
