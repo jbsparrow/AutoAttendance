@@ -10,3 +10,5 @@ The next step is to go to the form, right click on the submit button, click insp
 When you run it you have to select your grade because I couldn't figure out dropdowns but there's 7 seconds to select your grade before it's automatically submitted. To disable automatic submission delete "submitbutton.click()" or put a "#" infront of it, like this: "# submitbutton.click()"
 
 https://chromedriver.chromium.org/downloads - here's the download for the chrome webdriver, download the version corresponding to your build of chrome. To find what version of chrome you're on click "chrome>about chrome" and you should see the version.
+
+Once you've downloaded the webdriver make sure to set the executable path for it in AutoAttendance.py otherwise it won't work.
