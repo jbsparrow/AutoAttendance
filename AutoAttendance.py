@@ -31,6 +31,6 @@ browser.find_element_by_class_name("quantumWizMenuPaperselectOptionList").click(
 time.sleep(7)
 
 
-submitbutton.click()
+# submitbutton.click()
 
-browser.close()
+# browser.close()
