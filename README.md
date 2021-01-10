@@ -1,6 +1,8 @@
 # AutoAttendance
 (nearly) Automatic attendance filler because I got lazy and didn't wanna manually fill out attendance anymore. It's nearly automatic because I couldn't figure out how to automate dropdowns on google forms.
 
+This is made only for people inside the TDSB, if you're not in the TDSB it will not work because your form will most likely be different, contact me at a2zamazon@protonmail.ch with a link to your school's form and I'll try to add it for you :)
+
 To get the program running you first need to run it and log in to your account so that it remembers it because in my case you need to be logged in to do the attendance, if you don't need to be logged in just comment the bit that says "option.add_argument("user-data-dir=selenium")" After running it and logging in uncomment "submitbutton.click()" and "browser.close()" 
 
 Then fill in student number, teacher name, your name, course name, and the link to the form. 
